@@ -13,4 +13,13 @@ public class MaximusApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MaximusApplication.class, args);
 	}
+	
+//	@Bean
+//    public ViewResolver getViewResolver() {
+//        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+//        resolver.setPrefix("/WEB-INF/pages/");
+//        resolver.setSuffix(".jsp");
+//        resolver.setViewClass(JstlView.class);
+//        return resolver;
+//    }
 }
